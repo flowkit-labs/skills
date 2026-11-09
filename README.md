@@ -1,22 +1,31 @@
 # doany skills
 
-Agent skills from [doany.ai](https://doany.ai/?utm_source=github&utm_medium=readme&utm_campaign=doany-skills) — turn AI agents into growth teammates.
+Agent skills from [doany.ai](https://doany.ai/?utm_source=github&utm_medium=readme&utm_campaign=doany-skills) for building websites and finding customers.
 
 ## Skills
 
 | Skill | What it does |
 |---|---|
+| [`doany-website-builder`](doany-website-builder/) | Ask Annie to build or update a DoAny website from your AI agent. Review the preview and approve when it goes live. |
 | [`reddit-automation`](reddit-automation/) | Find Reddit threads where people are actively shopping for what you sell, and draft replies that read like a helpful community member — not an ad. |
 
 ## Install
 
 ```bash
-npx skills add doany-skills/skills --skill reddit-automation -g
+npx skills add flowkit-labs/skills --skill doany-website-builder
+npx skills add flowkit-labs/skills --skill reddit-automation
 ```
+
+Choose the command for the skill you want. To try Website Builder, ask your agent:
+
+> Use DoAny to build a website for my Austin dog grooming service. Make it easy to request an appointment, and show me a preview before publishing.
+
+Connect your DoAny account through [MCP](https://docs.doany.ai/api-mcp/mcp) or the [DoAny CLI](https://docs.doany.ai/api-mcp/cli) when prompted.
 
 ## Security & Privacy
 
-These skills are documentation-only: they guide the agent's reasoning and writing. They do not pipe remote scripts into a shell, read environment variables or credentials, or post anything on your behalf. Every Reddit reply is presented for you to review and post by hand — the agent never publishes to Reddit.
+- **Website Builder** sends your brief to Annie through an authorized DoAny connection. Builds and edits use your DoAny credits. Review the preview before approving publication. Sign in through DoAny and keep API keys out of chat.
+- **Reddit Automation** requires no DoAny credentials. You review and post each reply yourself.
 
 ## License
 
