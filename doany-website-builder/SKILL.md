@@ -5,11 +5,13 @@ description: Build, update, preview, or publish a website or web app with Annie 
 
 # DoAny Website Builder
 
+Turn your business idea into a website with Annie. Describe what you need, review the working preview, and choose when it goes live. [Explore DoAny](https://doany.ai/?utm_source=skills.sh&utm_medium=skill&utm_campaign=doany-website-builder).
+
 Annie builds and changes the site on DoAny. A request for advice or a plan can be answered in chat. Use the workflow below when the user wants DoAny to act.
 
 ## Connect and identify the site
 
-1. If the DoAny MCP is connected, call `list_projects` to see the companies, apps and scopes available. The server is `https://api.doany.ai/mcp`. Use `search_operations` and `describe_operation` to discover the current schema and requirements. Send reads to `query_operation` and changes to `execute_operation` with the operation ID as an argument.
+1. If the DoAny MCP is connected, call `list_projects` to see the companies, apps and scopes available. The production server is `https://api.doany.ai/mcp`. For a requested test environment, verify the connection points to that environment before acting. Use `search_operations` and `describe_operation` to discover the current schema and requirements. Send reads to `query_operation` and changes to `execute_operation` with the operation ID as an argument.
 2. If you have a terminal, use the [CLI workflow](references/cli.md) when MCP is unavailable. It covers browser sign-in and `DOANY_API_KEY` for remote environments. In a client without a terminal, direct the user to the [MCP connection guide](https://docs.doany.ai/api-mcp/mcp) and continue once connected.
 3. Select the company the user named. If several match, ask which one. Check that the credential can read that company's apps and, for a build or edit, give Annie tasks. Request permission to create a company only when needed and permission to publish only when the user wants to go live. Use DoAny's authorization flow to resolve missing scopes. Keep credentials out of chat.
 

@@ -12,6 +12,8 @@ doany login --scopes 'projects:read apps:read annie:read annie:write'
 
 Add `projects:create` if creating a company and `apps:publish` if publishing. On a remote machine or in CI where browser sign-in cannot return, have the user set `DOANY_API_KEY` in the environment where the command runs. They can create a scoped key in [DoAny API & MCP](https://doany.ai/company/api/keys). Use a key with **Skip confirmations** off. The user keeps the key in that environment.
 
+For an explicitly requested test environment, set `DOANY_API_URL` to that environment's official API origin, use credentials for that environment, and set a separate `DOANY_CONFIG_DIR` for its CLI state. Check the connection before creating a project or task.
+
 ## Run a first build
 
 Read `doany describe <operation-id>` before first use to confirm its flags, permissions, and next steps. Use explicit project and app IDs to keep commands on the intended website.

@@ -22,6 +22,8 @@ Choose the command for the skill you want. To try Website Builder, ask your agen
 
 Connect your DoAny account through [MCP](https://docs.doany.ai/api-mcp/mcp) or the [DoAny CLI](https://docs.doany.ai/api-mcp/cli) when prompted.
 
+[Explore DoAny](https://doany.ai/?utm_source=github&utm_medium=readme&utm_campaign=doany-website-builder) to see how Annie helps founders turn an idea into a website or web app.
+
 ## Security & Privacy
 
 - **Website Builder** sends your brief to Annie through an authorized DoAny connection. Builds and edits use your DoAny credits. Review the preview before approving publication. Sign in through DoAny and keep API keys out of chat.
