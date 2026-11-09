@@ -4,7 +4,7 @@ The CLI needs Node.js 20 or later. Use `doany` if installed, or prefix each comm
 
 ## Connect
 
-Run `doany whoami` to check the connection, companies and scopes. On the user's computer, use `doany login` if they are signed out. The user completes consent in the browser. Ask only for the scopes the work needs. For example, to edit an existing site:
+Run `doany whoami` to check the connection, companies and scopes. If the user needs a new production account, follow the [signup step](../SKILL.md#connect-and-identify-the-site) before CLI sign-in. On the user's computer, use `doany login` if they are signed out. The user completes consent in the browser. Ask only for the scopes the work needs. For example, to edit an existing site:
 
 ```bash
 doany login --scopes 'projects:read apps:read annie:read annie:write'
