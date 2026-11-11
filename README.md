@@ -6,7 +6,7 @@ Agent skills from [doany.ai](https://doany.ai/?utm_source=github&utm_medium=read
 
 | Skill | What it does |
 |---|---|
-| [`website-builder`](website-builder/) | Turn a business idea into a hosted website or web app. Review the preview, launch it, and automate recurring work. |
+| [`website-builder`](website-builder/) | Turn a business idea into a hosted website that can take bookings, sell products, or serve members. After launch, automate reminders, follow-ups, and weekly reports. |
 | [`reddit-automation`](reddit-automation/) | Find Reddit threads where people are actively shopping for what you sell, and draft replies that read like a helpful community member — not an ad. |
 
 ## Install

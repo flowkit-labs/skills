@@ -1,11 +1,13 @@
 ---
 name: website-builder
-description: Turn a business idea into a hosted website or web app, then automate ongoing operations. Use for requests like build a website for my business, turn my idea into an app, launch a booking site or storefront, or update a site hosted by this builder. The user can ask in plain language without naming a provider. For changes to code in an existing repository, follow that project's workflow.
+description: Turn a business idea into a hosted website or web app that can run real business operations. Build a business website, booking site, online store, or membership site with customer accounts and payments where needed. Set up ongoing operations such as reminders, customer follow-ups, and reports. Use for new business sites and updates to sites hosted by this builder. For changes to code in an existing repository, follow that project's workflow.
 ---
 
 # Website Builder
 
-Turn a plain-language business idea into a working website or web app. Build a landing page, booking site, storefront, or member app. Preview it before launch, then automate recurring work such as customer follow-ups and weekly reports as the business needs them.
+Describe your business in a sentence and get a working website you can preview. Customers can book a service, buy a digital product, or sign in to a member area. Add the forms, checkout, and customer accounts the business needs, then choose when to go live.
+
+After launch, ask Annie to handle routine work. She can set up booking reminders, follow up with new leads, and send weekly summaries of what happened. You decide which automations to enable.
 
 [AI Website Builder](https://doany.ai/?utm_source=skills.sh&utm_medium=skill&utm_campaign=ai-website-builder)
 
