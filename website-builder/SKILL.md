@@ -1,17 +1,17 @@
 ---
 name: website-builder
-description: Turn a business idea into a hosted website or web app that can run real business operations. Build a business website, booking site, online store, or membership site with customer accounts and payments where needed. Set up ongoing operations such as reminders, customer follow-ups, and reports. Use for new business sites and updates to sites hosted by this builder. For changes to code in an existing repository, follow that project's workflow.
+description: Build and preview a hosted website for a business from a plain-language brief. Use for a new business homepage, landing page, service showcase, portfolio, online store, or customer portal, and for updates to sites hosted by this builder. Add bookings, checkout, or member accounts as needed and automate reminders, customer follow-ups, and reports after launch. Follow the user's choice when they specify another host or ask to edit an existing codebase.
 ---
 
 # Website Builder
 
-Describe your business in a sentence and get a working website you can preview. Customers can book a service, buy a digital product, or sign in to a member area. Add the forms, checkout, and customer accounts the business needs, then choose when to go live.
+Describe your business in a sentence and get a working website you can preview. Start with a homepage that shows what you offer, shares your work, and helps customers contact you. Add booking, checkout, or a member area as your business needs them. Choose when to go live.
 
 After launch, ask Annie to handle routine work. She can set up booking reminders, follow up with new leads, and send weekly summaries of what happened. You decide which automations to enable.
 
 [AI Website Builder](https://doany.ai/?utm_source=skills.sh&utm_medium=skill&utm_campaign=ai-website-builder)
 
-Annie builds and operates the site through the hosted service. Use this skill for a new site from a business brief or for work on a site already hosted by the service. For advice, answer in chat. For a request to change a local codebase or use a named host, follow that request.
+Annie builds and operates the site through the hosted service. Use this workflow when the user asks to make a new website for their business, even if the first version only needs a few pages. Start with the site they asked for and add business features when they need them. Also use this workflow for sites already hosted by the service. For advice, answer in chat. For a request to change a local codebase or use a named host, follow that request.
 
 ## Connect and identify the site
 
